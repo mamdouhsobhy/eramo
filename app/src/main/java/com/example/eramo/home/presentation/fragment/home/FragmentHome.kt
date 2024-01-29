@@ -66,6 +66,7 @@ class FragmentHome : BaseFragmentBinding<FragmentHomeBinding>() {
                         newList.add(item)
                     }
                 }
+
                 adapterPosts.submitList(newList.sortedBy { it -> it.title })
                 binding.rvPosts.scrollToPosition(0)
             }else{
