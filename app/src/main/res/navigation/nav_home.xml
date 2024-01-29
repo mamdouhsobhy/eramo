@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/fragmentHome">
+
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.example.eramo.home.presentation.fragment.home.FragmentHome"
+        android:label="FragmentHome" >
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentPostDetails"
+            app:destination="@id/fragmentPostDetails" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentPostDetails"
+        android:name="com.example.eramo.home.presentation.fragment.postDetails.FragmentPostDetails"
+        android:label="fragment_post_details"
+        tools:layout="@layout/fragment_post_details">
+        <argument
+            android:name="postId"
+            app:argType="string" />
+
+    </fragment>
+
+</navigation>

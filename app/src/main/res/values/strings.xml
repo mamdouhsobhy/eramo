@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">eramo</string>
+    <string name="do_you_need_to_close_app">Do you want to exit the application?</string>
+    <string name="close">Exit</string>
+    <string name="cancel_">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="check_internet_connections">Check Internet Connection!</string>
+    <string name="search">Search</string>
+    <string name="no_results_found">No Results Found!</string>
+    <string name="try_again">Try Again?</string>
+    <string name="title">Title:</string>
+    <string name="body">Body:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
